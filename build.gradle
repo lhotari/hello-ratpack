@@ -1,0 +1,20 @@
+apply plugin: "io.ratpack.ratpack-groovy"
+apply plugin: "idea"
+apply plugin: "eclipse"
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.ratpack:ratpack-gradle:0.9.8"
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    springloaded "org.springframework:springloaded:1.2.0.RELEASE"
+}
